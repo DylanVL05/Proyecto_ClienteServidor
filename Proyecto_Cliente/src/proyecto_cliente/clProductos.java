@@ -59,8 +59,8 @@ public class clProductos {
     public String toString() {
         return "clProductos{" + "Nombre=" + Nombre + ", ID=" + ID + ", precio=" + precio + ", cantidad=" + cantidad + '}';
     }
-  
-  
+
+
   
     
     
