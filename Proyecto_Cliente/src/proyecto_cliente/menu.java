@@ -17,8 +17,8 @@ public class menu {
     
     public static void Menu(){
     
-      String ID = JOptionPane.showInputDialog("Introduce el ID del producto:");
-       Modulo_Productos moduloProductos = new Modulo_Productos(ID);
+       String ID = "ID_GENERADO"; 
+       Modulo_Productos moduloProductos = new Modulo_Productos(ID);    
         
         int opcion;
         do {
@@ -27,6 +27,9 @@ public class menu {
             
             switch (opcion) {
                 case 1:
+                     
+                     ID = JOptionPane.showInputDialog("Introduce el ID del producto:");
+                    
                     String nombre = JOptionPane.showInputDialog("Introduce el nombre del producto:");
                     double precio = Double.parseDouble(JOptionPane.showInputDialog("Introduce el precio del producto:"));
                     int cantidad = Integer.parseInt(JOptionPane.showInputDialog("Introduce la cantidad del producto:"));

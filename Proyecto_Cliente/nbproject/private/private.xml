@@ -3,20 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="Cliente_server_nube">
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clEmpleado.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Empleado.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clProvedor.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Provedor.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clVenta.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clProductos.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/menu.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Login.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Almacenamiento_Ventas.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Persona.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Provedor.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Almacenamiento_Productos.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clEmpleado.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clCliente.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/main.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Ventas.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clProvedor.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clCliente.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/clProductos.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Persona.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Almacenamiento_Productos.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/menu.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Cliente.java</file>
         </group>
     </open-files>
 </project-private>

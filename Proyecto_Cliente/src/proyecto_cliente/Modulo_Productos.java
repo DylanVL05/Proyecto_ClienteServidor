@@ -40,13 +40,13 @@ public class Modulo_Productos {
        */
     
      private Modulo_Ventas moduloVentas;
-     private String nombre;  
+    
      private String ID;
     private ArrayList<clProductos> productos;
 
     
     public Modulo_Productos(String ID) {
-        this.nombre = nombre;
+     
         this.ID = ID;
         productos = Almacenamiento_Productos.cargarProductos();
         moduloVentas = new Modulo_Ventas();
