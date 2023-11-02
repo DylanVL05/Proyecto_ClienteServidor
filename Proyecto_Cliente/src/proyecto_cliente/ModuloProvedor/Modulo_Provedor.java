@@ -2,12 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package proyecto_cliente;
+package proyecto_cliente.ModuloProvedor;
 
 /**
  *
  * @author andro
  */
-public class Modulo_Empleado {
+public class Modulo_Provedor {
+    
+    
+    
+    
+    
+    
     
 }

@@ -4,6 +4,8 @@
  */
 package proyecto_cliente;
 
+import proyecto_cliente.Modulo_Productos_Ventas.Modulo_Productos;
+import proyecto_cliente.Modulo_Productos_Ventas.clProductos;
 import javax.swing.JOptionPane;
 
 /**
