@@ -8,7 +8,7 @@ package proyecto_cliente;
  *
  * @author andro
  */                            //Clase padre Persona  
-public abstract class Persona {
+public abstract class Persona implements imprimir {
  
     private String nombre;
     
@@ -49,6 +49,13 @@ public abstract class Persona {
     @Override
     public String toString() {
         return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", cedula=" + cedula + '}';
+    }
+
+    @Override
+    public void imprimir() {
+        System.out.println(nombre+ "\n");
+        System.out.println(edad + "\n");
+        System.out.println(cedula+ "\n");
     }
     
 
