@@ -13,25 +13,74 @@ import java.util.Date;
 public class clVenta {
     
     
-    
-   private String IDProducto;
+    private int idVenta;
+    private String idProducto;
     private int cantidad;
     private double precioUnitario;
     private Date fechaVenta;
+    private String direccion_venta;
+    private String cliente;
+    
 
-    public clVenta(String IDProducto, int cantidad, double precioUnitario, Date fechaVenta) {
-        this.IDProducto = IDProducto;
+    public clVenta(int idVenta, String idProducto, int cantidad, double precioUnitario, Date fechaVenta,String direccion_venta, String cliente) {
+        this.idVenta = idVenta;
+        this.idProducto = idProducto;
+        this.cantidad = cantidad;
+        this.precioUnitario = precioUnitario;
+        this.fechaVenta = fechaVenta;
+        this.direccion_venta = direccion_venta;
+        this.cliente= cliente;
+    }
+
+    public clVenta(String idProducto, int cantidad, double precioUnitario, Date fechaVenta) {
+        this.idProducto = idProducto;
         this.cantidad = cantidad;
         this.precioUnitario = precioUnitario;
         this.fechaVenta = fechaVenta;
     }
 
-    public String getIDProducto() {
-        return IDProducto;
+    public String getDireccion_venta() {
+        return direccion_venta;
     }
 
-    public void setIDProducto(String IDProducto) {
-        this.IDProducto = IDProducto;
+    public void setDireccion_venta(String direccion_venta) {
+        this.direccion_venta = direccion_venta;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    public clVenta() {
+    }
+
+    public int getIdVenta() {
+        return idVenta;
+    }
+
+    public void setIdVenta(int idVenta) {
+        this.idVenta = idVenta;
+    }
+
+
+    public String getIdProducto() {
+        return idProducto;
+    }
+
+    public void setIdProducto(String idProducto) {
+        this.idProducto = idProducto;
     }
 
     public int getCantidad() {
@@ -60,9 +109,10 @@ public class clVenta {
 
     @Override
     public String toString() {
-        return "clVenta{" + "IDProducto=" + IDProducto + ", cantidad=" + cantidad + ", precioUnitario=" + precioUnitario + ", fechaVenta=" + fechaVenta + '}';
+        return "clVenta{" + "idVenta=" + idVenta + ", idProducto=" + idProducto + ", cantidad=" + cantidad + ", precioUnitario=" + precioUnitario + ", fechaVenta=" + fechaVenta + '}';
     }
-    
+
+
     
     
     

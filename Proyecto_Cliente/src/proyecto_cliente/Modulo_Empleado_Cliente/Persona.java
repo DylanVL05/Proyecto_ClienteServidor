@@ -12,15 +12,40 @@ public abstract class Persona implements imprimir {
  
     private String nombre;
     
+    private int id;
+    
     private int edad;
     
-    private String cedula;
+    private String identificacion;
+ 
+    public Persona(String nombre, int id, int edad, String cedula) {
+        this.nombre = nombre;
+        this.id = id;
+        this.edad = edad;
+        this.identificacion = cedula;
+    }
 
-    public Persona(String nombre, int edad, String cedula) {
+    public Persona(String nombre, int edad, String identificacion) {
         this.nombre = nombre;
         this.edad = edad;
-        this.cedula = cedula;
+        this.identificacion = identificacion;
     }
+
+    
+    
+    
+    
+    
+    
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
 
     public String getNombre() {
         return nombre;
@@ -38,24 +63,26 @@ public abstract class Persona implements imprimir {
         this.edad = edad;
     }
 
-    public String getCedula() {
-        return cedula;
+    public String getIdentificacion() {
+        return identificacion;
     }
 
-    public void setCedula(String cedula) {
-        this.cedula = cedula;
+    public void setIdentificacion(String identificacion) {
+        this.identificacion = identificacion;
     }
+
+
 
     @Override
     public String toString() {
-        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", cedula=" + cedula + '}';
+        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", cedula=" + identificacion + '}';
     }
 
     @Override
     public void imprimir() {
         System.out.println(nombre+ "\n");
         System.out.println(edad + "\n");
-        System.out.println(cedula+ "\n");
+        System.out.println(identificacion+ "\n");
     }
     
 

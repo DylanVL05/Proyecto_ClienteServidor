@@ -14,12 +14,19 @@ public class clCliente extends Persona {
     
     private String direccion_Cl;
 
-    public clCliente(String tel_Cliente, String direccion_Cl, String nombre, int edad, String cedula) {
-        super(nombre, edad, cedula);
+    public clCliente(String tel_Cliente, String direccion_Cl, String nombre,  int edad, String identificacion) {
+        super(nombre, edad, identificacion);
         this.tel_Cliente = tel_Cliente;
         this.direccion_Cl = direccion_Cl;
     }
 
+    public clCliente(String nombre, int edad, String identificacion) {
+        super(nombre, edad, identificacion);
+    }
+
+   
+    
+    
     public String getTel_Cliente() {
         return tel_Cliente;
     }

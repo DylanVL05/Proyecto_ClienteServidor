@@ -13,8 +13,8 @@ public class clEmpleado extends Persona {
     private String puesto;
     private double salario;
 
-    public clEmpleado(String nombre, int edad, String cedula, String puesto, double salario) {
-        super(nombre, edad, cedula);
+    public clEmpleado(String nombre, int edad, String identificacion, String puesto, double salario) {
+        super(nombre, edad, identificacion);
         this.puesto = puesto;
         this.salario = salario;
     }

@@ -9,19 +9,36 @@ package proyecto_cliente.Modulo_Productos_Ventas;
  * @author andro
  */
 public class clProductos {
- 
-  private String Nombre, ID;
-  
+   private int id;
+  private String Nombre;
+
   private double precio;
   
   private int cantidad;
+  private String identificacion;
 
-    public clProductos(String Nombre, String ID, double precio, int cantidad) {
+    public clProductos(String Nombre, double precio, int cantidad, String identificacion) {
         this.Nombre = Nombre;
-        this.ID = ID;
         this.precio = precio;
         this.cantidad = cantidad;
+        this.identificacion = identificacion;
     }
+
+    public String getIdentificacion() {
+        return identificacion;
+    }
+
+    public void setIdentificacion(String identificacion) {
+        this.identificacion = identificacion;
+    }
+  
+
+    public clProductos() {
+    }
+
+
+  
+  
 
     public String getNombre() {
         return Nombre;
@@ -31,13 +48,15 @@ public class clProductos {
         this.Nombre = Nombre;
     }
 
-    public String getID() {
-        return ID;
+    public int getId() {
+        return id;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setId(int id) {
+        this.id = id;
     }
+
+
 
     public double getPrecio() {
         return precio;
@@ -57,8 +76,10 @@ public class clProductos {
 
     @Override
     public String toString() {
-        return "clProductos{" + "Nombre=" + Nombre + ", ID=" + ID + ", precio=" + precio + ", cantidad=" + cantidad + '}';
+        return "clProductos{" + "id=" + id + ", Nombre=" + Nombre + ", precio=" + precio + ", cantidad=" + cantidad + ", identificacion=" + identificacion + '}';
     }
+
+
 
 
   

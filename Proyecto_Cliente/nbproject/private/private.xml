@@ -5,22 +5,25 @@
         <group name="Cliente_server_nube">
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos_Ventas/clProductos.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Jframe_login.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/BD/cl_EmpleadoDAO.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos_Ventas/clVenta.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/menu.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/BD/cl_VentasDAO.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Login.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos_Ventas/Modulo_Productos.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Empleado_Cliente/Persona.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/_menu_.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos_Ventas/Almacenamiento_Productos.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/BD/cl_ProveedoresDAO.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/chat/Chat_Cliente.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/BD/cl_ClienteDAO.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/chat/Hilo_Servidor.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/ModuloProvedor/clProvedor.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Empleado_Cliente/clEmpleado.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos_Ventas/Almacenamiento_Ventas.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/chat/Hilo_Cliente.java</file>
             <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Empleado_Cliente/clCliente.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Productos_Ventas/Modulo_Ventas.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/main.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Empleado_Cliente/Modulo_Cliente.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/ModuloProvedor/Modulo_Provedor.java</file>
-            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Empleado_Cliente/Modulo_Empleado.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/BD/ConexionMySQL.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/chat/Chat_Servidor.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/BD/cl_ProductosDAO.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/BD/bd_ejecucion.java</file>
+            <file>file:/C:/Users/andro/Documents/GitHub/Proyecto_ClienteServidor/Proyecto_Cliente/src/proyecto_cliente/Modulo_Empleado_Cliente/imprimir.java</file>
         </group>
     </open-files>
 </project-private>
